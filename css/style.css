@@ -1,5 +1,6 @@
 /*# linha 327 - mudança de cor da barra de menu
     linha 104 - mudança cor das letras menu para branco, antes era rgba(0,0,0, 0.6) */
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -9,7 +10,7 @@
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Helvetica", monospace;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
@@ -64,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Helvetica";
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -101,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 #fh5co-header #navbar li a {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Helvetica", monospace;
   color: #fff;
   position: relative;
   font-size: 16px;
@@ -849,7 +850,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   display: block;
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Roboto Mono", monospace;
+  font-family: "Helvetica";
   width: 100%;
   font-weight: 700;
   margin-bottom: .3em;
@@ -1116,9 +1117,9 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Helvetica";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 450;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -1358,6 +1359,11 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
     width: 100%;
   }
+}
+
+/*Cuida da responsividade das imagens de 'Produtos'*/
+.row img{
+  max-width: 100%;
 }
 
 .row-bottom-padded-lg {
