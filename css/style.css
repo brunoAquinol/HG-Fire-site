@@ -63,6 +63,7 @@ p {
   font-size: 16px;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Helvetica";
@@ -908,6 +909,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
   text-decoration: underline;
 }
+
+#fh5co-footer p {
+  text-align: justify;
+}
+
 #fh5co-footer .section-title {
   font-size: 22px;
   color: #fff;
@@ -1362,7 +1368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Cuida da responsividade das imagens de 'Produtos'*/
-.row img{
+.prod-resp img{
   max-width: 100%;
 }
 
@@ -1432,6 +1438,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 21px 30px;
 	align:"left";
 	border-color: #d3d3d3;
+	font-color: #d3d3d3;
+}
+
+.nossa-historia p{
+  text-align: justify;
+	font-size: 20px;
+	padding: 21px 30px;
 	font-color: #d3d3d3;
 }
 
